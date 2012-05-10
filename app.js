@@ -28,8 +28,8 @@ app.configure(function() {
     app.set('views', __dirname + '/views');
     app.set('view options', { layout: 'layout' });
     app.use(flatiron.methodOverride());
-    app.use(express.static(pub));
-    app.use(express.bodyParser());
+    app.use(flatiron.static(pub));
+    app.use(flatiron.bodyParser());
 });
 
 app.get('/', presentationController.allPresentations);
