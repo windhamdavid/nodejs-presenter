@@ -6,7 +6,7 @@ Express - http://expressjs.com/
 
 and sub-modules
 
-express@2.5.9 ./node_modules/express
+express@2.5.9 ./node_modules/express 
 ├── qs@0.4.2
 ├── mime@1.2.4
 ├── mkdirp@0.3.0
