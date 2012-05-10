@@ -1,13 +1,13 @@
 {
-    "name":"gs-nodejspresenter",
-    "description":"An application to show presentations via your browser",
-    "version":"0.9.0",
-    "author":"Jettro Coenradie <jettro@gridshore.nl>",
-    "dependencies":{
-        "express":"",
-        "jade":"",
-        "":""
-    },
-    "main":"app.js"
-
+   "name": "nodeslide",
+	"description":"An application to show presentations via your browser in real time",
+   "version": "0.1.0",
+   "author":"David Windham <david(at)davidawindham.com>",
+   "dependencies": {
+     "flatiron": "*",
+     "union": "*",
+     "plates": "*",
+     "resourceful": "*",
+     "connect": "*"
+  }
 }
