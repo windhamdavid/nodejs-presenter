@@ -1,5 +1,8 @@
 forked from - https://github.com/jettro/nodejs-presenter
 
+Prereqs - 
+Jade - https://github.com/visionmedia/jade
+Express - http://expressjs.com/
 
 With this project I want to create a very basic web based presentation application. No I am not going to recreate Keynote or Powerpoint. I want this to be a very command line driven presentation application.
 
