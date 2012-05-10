@@ -38,5 +38,5 @@ app.get('/presentation/:urlIdentifier/slide/:id', presentationController.slide);
 app.post('/presentation/:urlIdentifier/slide/:id', presentationController.command);
 app.get('/presentation/:urlIdentifier/all', presentationController.allSlides);
 
-app.listen(8018);
+app.listen(8888);
 console.log('Express server started on port %s', app.address().port);
